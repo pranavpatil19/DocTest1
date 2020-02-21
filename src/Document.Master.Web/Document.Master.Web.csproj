@@ -59,8 +59,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Documents\" />
-    <Folder Include="wwwroot\Documents\" />
+    <Content Update="Documents\docs-langs.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Documents\en\docs-nav.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
